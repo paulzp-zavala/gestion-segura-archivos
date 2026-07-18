@@ -1,0 +1,10 @@
+##################################################
+# Protección del panel de administración
+##################################################
+
+AuthType Basic
+AuthName "Panel de Administración"
+
+AuthUserFile "C:/xampp/htdocs/gestion_archivos_seguro/administracion/.htpasswd"
+
+Require valid-user

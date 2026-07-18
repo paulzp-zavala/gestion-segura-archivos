@@ -1,0 +1,25 @@
+##################################################
+# Proyecto: Gestión Segura de Archivos
+# Configuración Apache mediante .htaccess
+##################################################
+
+RewriteEngine On
+
+##################################################
+# 1. Redirección automática de HTTP a HTTPS
+##################################################
+
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+##################################################
+# 2. Página personalizada de error 404
+##################################################
+
+ErrorDocument 404 /gestion_archivos_seguro/404.php
+
+##################################################
+# 3. URL amigable para consultar archivos
+##################################################
+
+RewriteRule ^archivo/([0-9]+)/?$ archivo.php?id=$1 [L,QSA]
