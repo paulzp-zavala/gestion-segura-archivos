@@ -4,7 +4,7 @@ Proyecto desarrollado por Paul Zavala para la asignatura de Desarrollo Web de la
 
 ## Descripción
 
-Sistema web desarrollado en PHP que permite subir, listar, descargar y eliminar archivos de forma segura. El proyecto aplica Programación Orientada a Objetos (POO), autenticación de usuarios, conexión a base de datos mediante PDO y medidas de seguridad para el manejo de archivos.
+Sistema web desarrollado en PHP que permite subir, listar, descargar y eliminar archivos de forma segura. El proyecto aplica Programación Orientada a Objetos (POO), autenticación de usuarios, conexión a base de datos mediante PDO y medidas de seguridad para el manejo de archivos. modificado 13 8 2026
 
 ## Objetivo
 
